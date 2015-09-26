@@ -7,7 +7,7 @@ jsonFileFolder = "./play scrapper /datajson/"
 maxJSONFiles = 100
 
 def loadIthJSONFile(i):
-	with open(jsonFileFolder + 'data'+i+'.json') as data_file:
+	with open(jsonFileFolder + 'data'+str(i)+'.json') as data_file:
 		data = json.load(data_file)
 		return data
 
