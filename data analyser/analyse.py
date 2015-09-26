@@ -5,9 +5,9 @@ from pprint import pprint
 
 
 class dataLoader:
-	
+
 	jsonFileFolder = "../play scrapper /datajson/"
-	maxJSONFiles = 1
+	maxJSONFiles = 279
 
 	jsonFileIndex = -1
 	arrayElementIndex = 0
@@ -50,7 +50,9 @@ d = dataLoader()
 
 while d.hasNext() :
 	
-	pprint ( d.getNext()['PackegeId'] )
+	d.getNext()
+
+print "done loading"
 
 
 
