@@ -3,7 +3,7 @@ import json
 from pprint import pprint
 
 
-jsonFileFolder = "../play scrapper /datajson/"
+jsonFileFolder = "../play scrapper/datajson/"
 maxJSONFiles = 100
 
 def loadIthJSONFile(i):
