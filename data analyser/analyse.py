@@ -2,7 +2,7 @@
 import json
 from pprint import pprint
 
-
+allData = []
 
 class dataLoader:
 
@@ -49,8 +49,7 @@ d = dataLoader()
 # pprint (   d.getNext()   )
 
 while d.hasNext() :
-	
-	d.getNext()
+	allData.append(d.getNext())
 
 print "done loading"
 
