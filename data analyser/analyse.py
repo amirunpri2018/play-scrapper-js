@@ -4,7 +4,7 @@ from pprint import pprint
 
 
 jsonFileFolder = "./play scrapper /datajson"
-int maxJSONFiles = 100
+maxJSONFiles = 100
 
 def loadIthJSONFile(i):
 	with open('data.json') as data_file:
