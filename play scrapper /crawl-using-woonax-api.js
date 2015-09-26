@@ -104,6 +104,9 @@ function writeFetchedDataToDb(data , callback)
 function crawlToPackeges(packeges , callback) // packages comma seperated
 {
 	var url = 'localhost:3000/googlePlay/getDetails/'+ packeges;
+
+	var url = 'http://localhost:3000/googlePlay/getDetails/'+ packeges;
+
 	console.log(url);
 
 	request(url, function (error, response, body) {

@@ -1,5 +1,5 @@
 #!/bin/bash
 while :
 do
-	node playCrawler
+	node crawl-using-woonax-api
 done
